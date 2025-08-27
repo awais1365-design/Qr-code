@@ -16,7 +16,9 @@
 
     .container {
       display:flex;
-      margin-top: 110px;
+      padding-top: 87px;
+      height:850px ;
+      gap:103px;
 
 
 
@@ -25,16 +27,11 @@
         position: relative;
         display: flex;
         flex-direction: column;
-        padding-left: 154px;
+        padding-left: 164px;
+        padding-right: 166px;
   background-color: white; 
   border-color: #f2f6f7;            
-  border-top-right-radius: 80px;
-  min-width: 950px;
-  
-   
-
-       
-    
+  border-top-right-radius: 80px; 
     }
     .left h1{
         font-size: 72px;
@@ -44,31 +41,32 @@
     }
     .left p{
         font-size:24px ;
-        width: 780px;
+        width: 800px;
         
     }
+    .left p a{
+      font-family:Heebo ,sans-serif;
+      font-weight: bold;
+      color: #1C2022;
+
+    }
     .qr-image {
-        width:730px;
-        height:433px;
-        margin-top:85px ;
+        width:774px;
+        height:459px;
+        padding-top:85px ;
        
             }
-    .right{
-        width:900px;
-        height:200px;
-        
-        
-    } 
+    
     .right h2{
         font-size:32px;
-        padding-left:210px;
+        padding-left:110px;
         padding-top:20px;
         
 
     }
      .right h3{
         font-size:32px;
-        padding-left:210px;
+        padding-left:110px;
         padding-top:20px;
         
 
@@ -76,20 +74,23 @@
   
     .right h3 a {
         color: #333;
+      text-decoration: none;
     }
      .right h2 a {
         color: #333;
+        text-decoration: none;
     }
+    .right h2 a img ,
+    .right h3 a img {
+     padding-left:24px;
+}
+    
 
         .right h{
         font-size:32px;
         
         padding-left:210px;
         padding-top: 50px;
-        
-          width:400px;
-
-    
 
     }
 
@@ -99,11 +100,10 @@
 
         padding-top:20px;
        
-        margin-left:100px;
     }
   .content {
   display: flex;
-  gap: 55px;
+  gap: 57px;
 }
     .right .content p {
         font-size:20px ;
@@ -119,13 +119,17 @@
         width: 56px;
         margin: top 20px; ;
         height:56px;
-        margin-left:100px;
         padding-top:20px;
         
     }
   .contentnew {
   display: flex;
-  gap: 55px;
+  gap: 57px;
+}
+.right .contentnew p a{
+  font-family:Heebo ,sans-serif;
+      font-weight: Regular;
+  color: #333;
 }
     .right .contentnew p {
         font-size:20px ;
@@ -136,10 +140,10 @@
 
 
 .logo3 {
-  width: 144px;
-  height: 144px;
+  width: 180px;
+  height: 180px;
   position: absolute;
-  top: -62px;   
+  top: -80px;   
   left: 20%;    
   transform: translateX(-50%);
 }
@@ -147,7 +151,7 @@
   border: 0;
   height: 1px;
   background: #333;
-  width: 76%;          
+  width: 100%;          
   margin: 40px auto;   
 }
 
@@ -156,20 +160,19 @@
 @media (max-width: 1024px) {
   .container {
     flex-direction: column;  
-    margin-top: 70px;
+    padding-top: 70px;
     align-items: center;
   }
 
   .left {
-    min-width: auto;
     padding: 70px;
     text-align: center;
-  }
+  } 
 
   .left h1 {
     font-size: 80px;
   }
-
+ 
   .left p {
     width: 100%;
     font-size: 40px;
@@ -182,7 +185,6 @@
   }
 
   .right {
-    width: 100%;
     padding: 20px;
     justify-content: center;
   }
@@ -240,7 +242,9 @@
 
   .left p {
     font-size: 23px;
+    
   }
+
 
   .qr-image {
     width: 100%;
@@ -257,7 +261,7 @@
   margin: 20px auto; 
   text-align: center;
   }
-
+  
 
 
   .logo3 {
@@ -308,6 +312,7 @@
     font-size: 25px;
     margin: 20px 0;
   }
+  
   .right h3{
      font-size: 25px;
   margin: 20px auto; 
@@ -335,13 +340,6 @@
   }
 }
 
-  
-
-
-
- 
-  
-
   </style>
 </head>
 <body>
@@ -366,7 +364,8 @@
 
    
     <div class="right">
-         <h2><a href="https://www.figma.com/design/1FKJwrucDlbh1PGfgoE7Mk/qr-codeeee?node-id=2-3&p=f&t=4rQY2ItuWesKTWdf-0" target="_blank">Design System →</a>
+         <h2><a href="https://www.figma.com/design/1FKJwrucDlbh1PGfgoE7Mk/qr-codeeee?node-id=2-3&p=f&t=4rQY2ItuWesKTWdf-0" target="_blank">Design System 
+          <img src="images/Vector (1).png" alt="arrow"></a>
          </h2>
          <div class="content">
         <img src="images/Group (1).png" alt="Logo1" class="logo1-img">
@@ -382,8 +381,7 @@
         
         <h3>
   <a href="https://www.figma.com/design/1FKJwrucDlbh1PGfgoE7Mk/qr-codeeee?node-id=2-4&p=f&t=nwAeVH5qTwWJEmak-0" target="_blank">
-    Designs →
-  </a>
+    Designs <img src="images/Vector (1).png" alt="arrow" class ="arror"> </a>
 </h3>
 
          <div class="contentnew">
