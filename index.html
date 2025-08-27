@@ -66,28 +66,22 @@
         
 
     }
-     /* h3 {
-     
-      position: relative;
-      
-      
-    } */
-     /* h3::after {
-      content: "";
-      display: block;
-      width: 540px;      
-      height: 1px;       
-      background:black; 
- 
-    } */
-    .right h4 a {
+     .right h3{
+        font-size:32px;
+        padding-left:210px;
+        padding-top:20px;
+        
+
+    }
+  
+    .right h3 a {
         color: #333;
     }
      .right h2 a {
         color: #333;
     }
 
-        .right h4{
+        .right h{
         font-size:32px;
         
         padding-left:210px;
@@ -156,19 +150,164 @@
   width: 76%;          
   margin: 40px auto;   
 }
-/* Desktop */
-@media (max-width:1440px){
 
-}
-/* Tablet */
-@media (max-width:1024px){
-  
-}
-/* Phones */
 
-@media (max-width:600px){
-  
+
+@media (max-width: 1024px) {
+  .container {
+    flex-direction: column;  
+    margin-top: 40px;
+    align-items: center;
+  }
+
+  .left {
+    min-width: auto;
+    padding: 40px;
+    text-align: center;
+  }
+
+  .left h1 {
+    font-size: 48px;
+  }
+
+  .left p {
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .qr-image {
+    width: 90%;
+    height: auto;
+    margin: 40px auto 0;
+  }
+
+  .right {
+    width: 100%;
+    padding: 20px;
+    justify-content: center;
+  }
+
+  .right h2,
+  .right h3 {
+    padding-left: 0;
+    text-align: center;
+    font-size:30px ;
+    
+  }
+
+  .right .content,
+  .right .contentnew {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .right .content p,
+  .right .contentnew p {
+    width: 90%;
+    height: auto;
+  }
+
+  .logo1-img,
+  .logo2-img {
+    margin: 0 auto;
+  }
+
+  .logo3 {
+    width: 100px;
+    height: 100px;
+    top: -40px;
+    left: 20%;
+  }
 }
+
+/* Mobile view */
+@media (max-width: 600px) {
+  .left {
+    padding: 20px;
+  }
+
+  .left h1 {
+    font-size: 32px;
+  }
+
+  .left p {
+    font-size: 16px;
+  }
+
+  .qr-image {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .right h2
+   {
+    font-size: 20px;
+    margin: 20px 0;
+  }
+  .right h3{
+     font-size: 20px;
+  margin: 20px auto; 
+  text-align: center;
+  }
+
+
+
+  .logo3 {
+    width: 100px;
+    height: 100px;
+    top: -40px;
+    padding-right:40px;
+  }
+}
+
+
+ /* mobile 320pixel */
+@media (max-width: 320px) {
+
+  .left {
+    padding: 70px;
+    align-items: center;
+   
+  }
+
+  .left h1 {
+    font-size: 40px;
+  }
+
+  .left p {
+    font-size: 12px;
+  }
+
+  .qr-image {
+    width: 90%;
+    margin-top: 20px;
+  }
+
+  .right h2
+   {
+    font-size: 20px;
+    margin: 20px 0;
+  }
+  .right h3{
+     font-size: 20px;
+  margin: 20px auto; 
+  text-align: center;
+  }
+
+
+
+  .logo3 {
+    width: 100px;
+    height: 100px;
+    top: -40px;
+    padding-right:40px;
+  }
+}
+
+  
+
 
 
  
@@ -212,11 +351,11 @@
      
 <hr class="center-line">
         
-        <h4>
+        <h3>
   <a href="https://www.figma.com/design/1FKJwrucDlbh1PGfgoE7Mk/qr-codeeee?node-id=2-4&p=f&t=nwAeVH5qTwWJEmak-0" target="_blank">
     Designs →
   </a>
-</h4>
+</h3>
 
          <div class="contentnew">
         <img src="images/Vector.png" alt="logo2" class="logo2-img">
